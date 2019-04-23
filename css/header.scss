@@ -6,6 +6,7 @@ body{
     height: 100vh;
 
     .header{
+        z-index: 1;
         a{
             font-size: 1em;
         }
@@ -22,7 +23,7 @@ body{
        }
        .menus{
         margin-top: 2.6em;
-        
+        margin-left: -16em;
            a{
                text-decoration: none;
                list-style: none;
@@ -48,5 +49,32 @@ body{
            }
        }
         
+    }
+    .body{
+         margin-left: 7em;
+         margin-top: 14em;
+        h2{
+            font-family: 'Abril Fatface', cursive;;
+            font-weight: bolder;
+            font-size: 8em;
+            line-height: .2em;
+
+            //text-transform: lowercase !important;
+        }
+        width: 100vw;
+        height: 2600px;
+        background-image: url("https://www.ogxbeauty.com/wp-content/themes/three21/assets/img/homepage-cta/ogx-is-model-eu.png");
+        z-index: 25;
+        background-repeat: no-repeat;
+        background-position: 70% -45px;
+        border: none;
+        //background-size: contain;
+ // background-attachment: fixed;
+
+      .bg-red{
+          width: 30vw;
+          background-color: rgba(200, 30, 33, 0.473);
+          background-size: contain;
+      }
     }
 }
