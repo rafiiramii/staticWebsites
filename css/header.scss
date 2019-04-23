@@ -7,6 +7,8 @@ body{
 
     .header{
         z-index: 1;
+        height: 80px;
+        //border: 2px solid red;
         a{
             font-size: 1em;
         }
@@ -15,15 +17,18 @@ body{
         justify-content: space-around;
 
        .logo{
-           margin-left: -7em;
-           margin-top: .69em;
+          // border: 2px solid red;
+
+          // width: 2px;
+           margin-left: -7.5em;
+           margin-top: 1em;
         h1{
             text-transform: lowercase !important;
         }
        }
        .menus{
         margin-top: 2.6em;
-        margin-left: -16em;
+        margin-left: -22em;
            a{
                text-decoration: none;
                list-style: none;
@@ -37,7 +42,8 @@ body{
        }
        .contacts{
            margin-top:2.6em;
-             margin-right: -5em;
+            // margin-right: -5em;
+             //padding-right: 3em;
            a{
             text-decoration: none;
             list-style: none;
@@ -50,31 +56,74 @@ body{
        }
         
     }
-    .body{
+    .container{
+      // border: 6px solid black;
          margin-left: 7em;
-         margin-top: 14em;
+         margin-top: 2em;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
         h2{
             font-family: 'Abril Fatface', cursive;;
-            font-weight: bolder;
-            font-size: 8em;
+            font-weight: bold;
+            font-size: 11em;
             line-height: .2em;
+            color: rgba(0, 0, 0, 0.808);
 
             //text-transform: lowercase !important;
         }
         width: 100vw;
-        height: 2600px;
-        background-image: url("https://www.ogxbeauty.com/wp-content/themes/three21/assets/img/homepage-cta/ogx-is-model-eu.png");
-        z-index: 25;
+        height: 2800px;
+        background-image: url("https://ya-webdesign.com/images/beauty-clipart-shampoo-25.png");
+        //z-index: 25;
         background-repeat: no-repeat;
-        background-position: 70% -45px;
-        border: none;
+        background-position: 56% -2px;
+       // border: none;
         //background-size: contain;
  // background-attachment: fixed;
 
       .bg-red{
-          width: 30vw;
+          margin-top: -6em;
+          margin-left: -7.5em;
+          border: 2px solid transparent;
+          border-radius: 20px;
+          width: 48vw;
+          height: 60vh;
           background-color: rgba(200, 30, 33, 0.473);
-          background-size: contain;
+         // background-size: contain;
+          //background-position: -40% -50%;
+
+          h2{
+              color:  rgba(247, 188, 243, 0.753);
+              margin-left: .68em;
+              margin-top: .5em;
+            //margin-bottom: -9em;
+          }
+          h3 ,h4{
+              color: rgba(255, 255, 255, 0.719);
+              margin-left: 4.3em;
+              margin-top: -2em;
+              font-size: 1.8em;
+              font-weight: 600;
+          }
+          h4{
+            font-size: 1em;
+              margin-left: 7.7em;
+              margin-top: -1.35em;
+          }
+          p{
+              color: rgba(255, 255, 255, 0.541);
+              margin-left: 8em;
+              margin-top: -.2em;
+              font-size: .96em;
+          }
+      }
+      .right-side{
+          margin-right: 3.4em;
+          margin-top: 2em;
+          h2{
+              font-size: 6em;
+          }
       }
     }
 }

@@ -8,6 +8,7 @@ body {
 
 body .header {
   z-index: 1;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,8 +25,8 @@ body .header a {
 }
 
 body .header .logo {
-  margin-left: -7em;
-  margin-top: .69em;
+  margin-left: -7.5em;
+  margin-top: 1em;
 }
 
 body .header .logo h1 {
@@ -34,7 +35,7 @@ body .header .logo h1 {
 
 body .header .menus {
   margin-top: 2.6em;
-  margin-left: -16em;
+  margin-left: -22em;
 }
 
 body .header .menus a {
@@ -50,7 +51,6 @@ body .header .menus i {
 
 body .header .contacts {
   margin-top: 2.6em;
-  margin-right: -5em;
 }
 
 body .header .contacts a {
@@ -63,28 +63,77 @@ body .header .contacts i {
   padding-left: 1.7em;
 }
 
-body .body {
+body .container {
   margin-left: 7em;
-  margin-top: 14em;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100vw;
-  height: 2600px;
-  background-image: url("https://www.ogxbeauty.com/wp-content/themes/three21/assets/img/homepage-cta/ogx-is-model-eu.png");
-  z-index: 25;
+  height: 2800px;
+  background-image: url("https://ya-webdesign.com/images/beauty-clipart-shampoo-25.png");
   background-repeat: no-repeat;
-  background-position: 70% -45px;
-  border: none;
+  background-position: 56% -2px;
 }
 
-body .body h2 {
+body .container h2 {
   font-family: 'Abril Fatface', cursive;
-  font-weight: bolder;
-  font-size: 8em;
+  font-weight: bold;
+  font-size: 11em;
   line-height: .2em;
+  color: rgba(0, 0, 0, 0.808);
 }
 
-body .body .bg-red {
-  width: 30vw;
+body .container .bg-red {
+  margin-top: -6em;
+  margin-left: -7.5em;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  width: 48vw;
+  height: 60vh;
   background-color: rgba(200, 30, 33, 0.473);
-  background-size: contain;
+}
+
+body .container .bg-red h2 {
+  color: rgba(247, 188, 243, 0.753);
+  margin-left: .68em;
+  margin-top: .5em;
+}
+
+body .container .bg-red h3, body .container .bg-red h4 {
+  color: rgba(255, 255, 255, 0.719);
+  margin-left: 4.3em;
+  margin-top: -2em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+body .container .bg-red h4 {
+  font-size: 1em;
+  margin-left: 7.7em;
+  margin-top: -1.35em;
+}
+
+body .container .bg-red p {
+  color: rgba(255, 255, 255, 0.541);
+  margin-left: 8em;
+  margin-top: -.2em;
+  font-size: .96em;
+}
+
+body .container .right-side {
+  margin-right: 3.4em;
+  margin-top: 2em;
+}
+
+body .container .right-side h2 {
+  font-size: 6em;
 }
 /*# sourceMappingURL=header.css.map */
