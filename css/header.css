@@ -1,0 +1,63 @@
+body {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(163, 72, 83, 0.733);
+  width: 100vw;
+  height: 100vh;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .header a {
+  font-size: 1em;
+}
+
+body .header .logo {
+  margin-left: -7em;
+  margin-top: .69em;
+}
+
+body .header .logo h1 {
+  text-transform: lowercase !important;
+}
+
+body .header .menus {
+  margin-top: 2.6em;
+}
+
+body .header .menus a {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(30, 8, 5, 0.658);
+  padding-left: 1.5em;
+}
+
+body .header .menus i {
+  padding-left: 4em;
+}
+
+body .header .contacts {
+  margin-top: 2.6em;
+  margin-right: -5em;
+}
+
+body .header .contacts a {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(30, 8, 5, 0.658);
+}
+
+body .header .contacts i {
+  padding-left: 1.7em;
+}
+/*# sourceMappingURL=header.css.map */

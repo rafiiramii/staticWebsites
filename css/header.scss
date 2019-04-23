@@ -1,0 +1,52 @@
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgba(163, 72, 83, 0.733);
+    width: 100vw;
+    height: 100vh;
+
+    .header{
+        a{
+            font-size: 1em;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+       .logo{
+           margin-left: -7em;
+           margin-top: .69em;
+        h1{
+            text-transform: lowercase !important;
+        }
+       }
+       .menus{
+        margin-top: 2.6em;
+        
+           a{
+               text-decoration: none;
+               list-style: none;
+               color:rgba(30, 8, 5, 0.658);
+               padding-left: 1.5em;
+           }
+          i{
+              padding-left: 4em;
+          }
+
+       }
+       .contacts{
+           margin-top:2.6em;
+             margin-right: -5em;
+           a{
+            text-decoration: none;
+            list-style: none;
+            color:rgba(30, 8, 5, 0.658);
+            //padding-left: 1.5em; 
+           }
+           i{
+               padding-left: 1.7em;
+           }
+       }
+        
+    }
+}
