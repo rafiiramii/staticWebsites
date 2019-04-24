@@ -1,0 +1,166 @@
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgba(163, 72, 83, 0.733);
+    width: 100vw;
+    height: 100vh;
+
+    .header{
+        z-index: 1;
+        height: 80px;
+        //border: 2px solid red;
+        a{
+            font-size: 1em;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+       .logo{
+          // border: 2px solid red;
+
+          // width: 2px;
+           margin-left: -7.5em;
+           margin-top: 1em;
+        h1{
+            text-transform: lowercase !important;
+        }
+       }
+       .menus{
+        margin-top: 2.6em;
+        margin-left: -22em;
+           a{
+               text-decoration: none;
+               list-style: none;
+               color:rgba(30, 8, 5, 0.658);
+               padding-left: 1.5em;
+           }
+          i{
+              padding-left: 4em;
+          }
+
+       }
+       .contacts{
+           margin-top:2.6em;
+            margin-right: -7em;
+             //padding-right: 3em;
+             
+           a{
+            text-decoration: none;
+            list-style: none;
+            color:rgba(30, 8, 5, 0.658);
+            //padding-left: 1.5em; 
+           }
+           i{
+               padding-left: 1.7em;
+              // margin-left: 2em;
+           }
+       }
+        
+    }
+    .container{
+      // border: 6px solid black;
+         margin-left: 7em;
+         margin-top: 2em;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+        h2{
+            font-family: 'Abril Fatface', cursive;
+            font-weight: bold;
+            font-size: 11em;
+            line-height: .2em;
+            color: rgba(0, 0, 0, 0.808);
+
+            //text-transform: lowercase !important;
+        }
+        width: 100vw;
+        height: 2800px;
+        background-image: url("https://ya-webdesign.com/images/beauty-clipart-shampoo-25.png");
+        //z-index: 25;
+        background-repeat: no-repeat;
+        background-position: 56% -2px;
+       // border: none;
+        //background-size: contain;
+ // background-attachment: fixed;
+
+      .bg-red{
+          margin-top: -6em;
+          margin-left: -7.5em;
+          border: 2px solid transparent;
+          border-radius: 20px;
+          width: 48vw;
+          height: 52vh;
+          background-color: rgba(200, 30, 33, 0.473);
+         // background-size: contain;
+          //background-position: -40% -50%;
+
+          h2{
+              color:  rgba(247, 188, 243, 0.753);
+              margin-left: .68em;
+              margin-top: .5em;
+            //margin-bottom: -9em;
+          }
+          h3 ,h4{
+              color: rgba(255, 255, 255, 0.658);
+              margin-left: 4.3em;
+              margin-top: -2em;
+              font-size: 1.8em;
+              font-weight: 600;
+          }
+          h4{
+            font-size: 1em;
+              margin-left: 7.7em;
+              margin-top: -1.35em;
+          }
+          p{
+              color: rgba(255, 255, 255, 0.541);
+              margin-left: 8em;
+              margin-top: -.2em;
+              font-size: .96em;
+          }
+      }
+      .right-side{
+          margin-right: 2em;
+          margin-top: 2em;
+          h2{
+             // width: 35vw;
+              //height: 60vh;
+              font-size: 5.6em;
+              color: white;
+              margin-top: 1.1em;
+              margin-left: 2.8em;
+              font-weight: bold;
+              //line-height: 6em;
+              //background-color: purple;
+          }
+          h3{
+              font-size: 1.8em;
+              margin-left: 10em;
+              
+          }
+          h4{
+              font-weight: lighter;
+              margin-top: -1.45em;
+              margin-left: 22.5em;
+              color: rgba(0, 0, 0, 0.37);
+          }
+          i{
+              padding-top: .3em;
+              margin-left: 30.35em;
+          }
+          .bg-purple{
+              margin-top: 17.5em;
+              //margin-right: 8em;
+              width: 45vw;
+              height: 25vh;
+              border: 2px solid transparent;
+              border-radius: 20px;
+              background-color: rgba(170, 49, 162, 0.651);
+          }
+          .top{
+              margin-right: -8em;
+          }
+      }
+    }
+}
