@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .left-side {
+  width: 95%;
+}
+
+.container .right-side {
+  margin-right: -3em;
+}
+/*# sourceMappingURL=cat.css.map */

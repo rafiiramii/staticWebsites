@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .left-side{
+        width: 95%;
+    }
+    .right-side{
+       // width:calc(100%-90px);
+        margin-right: -3em;
+    }
+}
