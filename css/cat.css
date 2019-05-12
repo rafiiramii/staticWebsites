@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: 102%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,16 +7,21 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: -.46em;
+  margin-left: -.489em;
 }
 
 .container .left-side {
+  color: white;
+  padding-top: 2em;
   width: 95%;
+  background: #241c13e8;
 }
 
 .container .right-side {
-  margin-right: -3em;
-  border-left: 2px solid black;
-  border-radius: 2px;
+  background: #221a10f5;
+  color: white;
+  width: 85px;
   height: 100vh;
 }
 /*# sourceMappingURL=cat.css.map */
