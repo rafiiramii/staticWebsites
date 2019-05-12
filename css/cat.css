@@ -11,11 +11,31 @@
   margin-left: -.489em;
 }
 
+.container .orange-text {
+  color: #c76f16;
+  text-decoration: underline;
+}
+
 .container .left-side {
   color: white;
   padding-top: 2em;
   width: 95%;
   background: #241c13e8;
+}
+
+.container .left-side .banner-text h3 {
+  font-size: 2em;
+}
+
+.container .left-side .banner-img {
+  float: right;
+  margin-right: 5.9em;
+  margin-top: -3em;
+}
+
+.container .left-side .banner-img img {
+  width: 360px;
+  height: 599px;
 }
 
 .container .right-side {
