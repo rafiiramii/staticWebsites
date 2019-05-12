@@ -8,14 +8,103 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: -.46em;
-  margin-left: -.489em;
+  margin-left: -.6em;
+}
+
+.container .orange-text {
+  color: #c76e16f3;
 }
 
 .container .left-side {
   color: white;
-  padding-top: 2em;
+  padding-top: .1em;
   width: 95%;
-  background: #241c13e8;
+  padding-left: 3.5em;
+  background: #352b1ff5;
+}
+
+.container .left-side .banner-text {
+  margin-left: 2em;
+}
+
+.container .left-side .banner-text h3 {
+  font-size: 2.2em;
+}
+
+.container .left-side .banner-text h3 .orange-text {
+  text-decoration: underline;
+}
+
+.container .left-side .banner-text h1 {
+  font-size: 8.2em;
+  margin-top: .98em;
+  margin-left: .25em;
+}
+
+.container .left-side .banner-text h5 {
+  margin-top: -1.79em;
+  margin-left: .7em;
+  font-style: normal;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.589);
+  font-size: 3em;
+  font-weight: lighter !important;
+  line-height: 1.26em;
+  height: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container .left-side .banner-text h5 .orange-text {
+  font-weight: bold;
+  margin-left: 3.9em;
+}
+
+.container .left-side .banner-text p {
+  font-size: .95em;
+  width: 342px;
+  margin-top: 13em;
+  margin-left: 2em;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0.507);
+}
+
+.container .left-side .banner-text .more-btn {
+  margin-left: 2em;
+  margin-top: 3.8em;
+}
+
+.container .left-side .banner-text .more-btn .bg-white {
+  background: white;
+  color: rgba(0, 0, 0, 0.712);
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 134px;
+  padding: .83em .8em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.container .left-side .banner-text .more-btn .bg-transparent {
+  border: 1.5px solid rgba(255, 255, 255, 0.281);
+  border-radius: 50px;
+  background: transparent;
+  padding: .83em .8em;
+  text-align: center;
+  font-size: 1.05em;
+  color: rgba(255, 255, 255, 0.89);
+  margin-left: 1.1em;
+}
+
+.container .left-side .banner-img {
+  float: right;
+  margin-right: 15em;
+  margin-top: -41.7em;
+}
+
+.container .left-side .banner-img img {
+  width: 460px;
+  height: 640px;
+  opacity: .68;
 }
 
 .container .right-side {
