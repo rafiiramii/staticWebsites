@@ -1,0 +1,48 @@
+.container {
+  width: 102%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: -.46em;
+  margin-left: -.489em;
+}
+
+.container .left-side {
+  color: white;
+  padding-top: 2em;
+  width: 95%;
+  background: #241c13e8;
+}
+
+.container .right-side {
+  background: #221a10f5;
+  color: white;
+  width: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+.container .right-side i {
+  padding-top: 3.9em;
+  padding-right: 1em;
+}
+
+.container .right-side .icon-bottom {
+  padding-top: 23.8em;
+}
+
+.container .right-side .gray-color {
+  color: rgba(255, 255, 255, 0.377);
+}
+/*# sourceMappingURL=cat.css.map */

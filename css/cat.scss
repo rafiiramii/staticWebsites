@@ -1,0 +1,44 @@
+.container{
+    width: 102%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -.46em;
+    margin-left: -.489em;
+      
+    
+    //justify-content: space-between;
+    //height: ;
+
+    .left-side{
+        color: white;
+        padding-top: 2em;
+        width: 95%;
+        background: #241c13e8;
+        
+    }
+    .right-side{
+
+     background:  #221a10f5;
+     color: white;
+     width: 85px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+        
+    
+        height: 100vh;
+
+        i{
+            padding-top: 3.9em;
+            padding-right: 1em;
+            
+        }
+        .icon-bottom{
+            padding-top: 23.8em;
+        }
+        .gray-color{
+            color:rgba(255, 255, 255, 0.377);
+        }
+    }
+}
