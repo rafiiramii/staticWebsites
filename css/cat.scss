@@ -9,5 +9,8 @@
     .right-side{
        // width:calc(100%-90px);
         margin-right: -3em;
+        border-left: 2px solid black;
+        border-radius: 2px;
+        height: 100vh;
     }
 }

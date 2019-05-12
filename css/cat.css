@@ -15,5 +15,8 @@
 
 .container .right-side {
   margin-right: -3em;
+  border-left: 2px solid black;
+  border-radius: 2px;
+  height: 100vh;
 }
 /*# sourceMappingURL=cat.css.map */
