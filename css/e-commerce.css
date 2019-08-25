@@ -1,0 +1,58 @@
+.container .banner {
+  padding: 5.9em 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, right top, from(#ff00cc), to(#333399));
+  background: linear-gradient(to right, #ff00cc, #333399);
+  color: white;
+}
+
+.container .banner .banner-txt {
+  width: 19%;
+  margin-top: 4em;
+}
+
+.container .banner .banner-txt h1 {
+  width: 95%;
+  font-size: 3em;
+}
+
+.container .banner .banner-txt p {
+  color: rgba(255, 255, 255, 0.555);
+  font-size: 0.88em;
+  width: 248px;
+  margin-bottom: 2.7em;
+}
+
+.container .banner .banner-txt a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb75e), to(#ed8f03));
+  background: linear-gradient(to right, #ffb75e, #ed8f03);
+  padding: 1.3em;
+  font-size: 0.79em;
+  border: 2px solid transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+.container .banner .banner-img {
+  margin: 4em 4em -2em 4em;
+}
+
+.container .banner .banner-img img {
+  width: 600px;
+  height: 450px;
+  margin-right: 9em;
+}
+/*# sourceMappingURL=e-commerce.css.map */

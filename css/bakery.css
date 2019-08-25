@@ -1,0 +1,78 @@
+body {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -4px 1px;
+  background-image: url("https://images.pexels.com/photos/1470162/pexels-photo-1470162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+body .container .navbar {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .navbar h3 {
+  margin-right: 7em;
+}
+
+body .container .navbar .nav-menu {
+  margin-top: 2em;
+}
+
+body .container .navbar .nav-menu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2em;
+}
+
+body .container .introduction {
+  padding: 4em 16em;
+  width: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .introduction h2 {
+  font-size: 3em;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.801);
+}
+
+body .container .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .services img {
+  color: red;
+  height: 30px;
+}
+
+body .container .services .cupcake img {
+  color: red;
+  height: 30px;
+}
+/*# sourceMappingURL=bakery.css.map */

@@ -1,0 +1,75 @@
+body {
+  .teamSection {
+    padding: 14em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+    img {
+      opacity: 0.999;
+      border-radius: 50%;
+      width: 150px;
+      height: 160px;
+      margin-left: 2.5em;
+      margin-top: -0.6em;
+    }
+    // div {
+    //   box-shadow: 0 8px 40px rgba(29, 21, 21, 0.301);
+
+    //   height: 400px;
+    //   padding: 4em;
+    //   //   background-image: radial-gradient(
+    //   //     circle farthest-corner at 10% 20%,
+    //   //     rgba(255, 182, 182, 1) 0%,
+    //   //     rgba(231, 126, 126, 1) 100.2%
+    //   //   );
+    //   //   background-color: #f48885;
+    //   //   clip-path: polygon(0 1%, 100% 0%, 51% 28%, 0 58%);
+    // }
+    .founder {
+      background-image: url("/images/Untitled\ design.png");
+      background-repeat: no-repeat;
+      //   background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      padding: 4em 3.2em;
+      height: 360px;
+      width: 245px;
+      box-shadow: 0px 8px 10px rgba(29, 21, 21, 0.356);
+
+      h2 {
+        margin-top: 1.4em;
+        margin-left: -1.2em;
+        text-align: center;
+        font-size: 1.2em;
+        color: rgba(71, 68, 68, 0.959);
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      h3 {
+        text-align: center;
+        margin-left: -1.7em;
+
+        color: #4b2946fa;
+      }
+      p {
+        letter-spacing: 0.1em;
+        text-align: center;
+        margin-left: -2em;
+
+        text-transform: capitalize;
+        font-size: 0.95em;
+      }
+      .teamAccounts {
+        margin-top: 2.1em;
+        margin-left: 1.4em;
+        i {
+          color: #f48885;
+          font-size: 2.4em;
+          margin-left: 0.5em;
+        }
+      }
+    }
+   
+  }
+}

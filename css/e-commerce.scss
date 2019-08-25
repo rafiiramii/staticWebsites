@@ -1,0 +1,46 @@
+.container {
+  .banner {
+    padding: 5.9em 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    color: white;
+    .banner-txt {
+      width: 19%;
+      margin-top: 4em;
+      h1 {
+        width: 95%;
+        font-size: 3em;
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.555);
+        font-size: 0.88em;
+        width: 248px;
+        margin-bottom: 2.7em;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        background: linear-gradient(to right, #ffb75e, #ed8f03);
+        padding: 1.3em;
+        font-size: 0.79em;
+        border: 2px solid transparent;
+        border: none;
+        border-radius: 5px;
+        // margin-bottom: -12em;
+      }
+    }
+    .banner-img {
+      margin: 4em 4em -2em 4em;
+      img {
+        width: 600px;
+        height: 450px;
+        margin-right: 9em;
+      }
+    }
+  }
+}

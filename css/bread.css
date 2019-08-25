@@ -1,0 +1,31 @@
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.banner .leftBanner {
+  -webkit-clip-path: polygon(0 0, 16% 0, 89% 100%, 0% 100%);
+          clip-path: polygon(0 0, 16% 0, 89% 100%, 0% 100%);
+  height: 100vh;
+  width: 50%;
+  background-color: aqua;
+}
+
+.banner .leftBanner .logo img {
+  width: 30px;
+  height: 40px;
+}
+
+.banner .rightBanner {
+  background-color: red;
+  -webkit-clip-path: polygon(24% 0, 100% 0, 100% 100%, 79% 100%);
+          clip-path: polygon(24% 0, 100% 0, 100% 100%, 79% 100%);
+  width: 50%;
+}
+/*# sourceMappingURL=bread.css.map */
