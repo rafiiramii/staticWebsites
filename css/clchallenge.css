@@ -1,0 +1,157 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  justify-self: center;
+  margin: 10em 15em;
+  width: 60vw;
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5em;
+  padding-top: 7em;
+  background: -webkit-gradient(linear, left top, right top, from(#0052d4), color-stop(#4364f7), to(#6fb1fc));
+  background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+}
+
+.container .welcome-text {
+  width: 30vw;
+  color: white;
+  margin-top: 1.85em;
+  margin-right: -1.9em;
+}
+
+.container .welcome-text h1 {
+  font-weight: normal;
+}
+
+.container .welcome-text h1::after {
+  content: "";
+  display: block;
+  width: 450px;
+  margin-top: 0.69em;
+  height: 5px;
+  background-color: yellow;
+}
+
+.container .welcome-text #textBold {
+  font-weight: bolder;
+  color: white;
+}
+
+.container .welcome-text p {
+  line-height: 2.25em;
+  width: 450px;
+  color: rgba(245, 245, 245, 0.863);
+  letter-spacing: 0.05em;
+}
+
+.container .login-form {
+  margin-left: -1em;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .login-form .btn-google {
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(#f00000), to(#dc281e));
+  background: linear-gradient(to right, #f00000, #dc281e);
+  border: none;
+  border-radius: 3px;
+  margin-top: 0.5em;
+  width: 24vw;
+  padding: 1.2em 1.3em;
+  height: 5.7vh;
+  color: white;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .login-form .btn-google i {
+  margin-top: -0.3em;
+}
+
+.container .login-form .btn-google h4 {
+  margin-top: -0.35em;
+  margin-right: 3.7em;
+}
+
+.container .login-form h3 {
+  margin-top: -0.25em;
+  text-align: center;
+  margin-left: 0.03em;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.container .login-form h3::before {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.637);
+  width: 170px;
+  height: 1px;
+  margin-left: 0.2em;
+  margin-bottom: -0.6em;
+}
+
+.container .login-form h3::after {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 169px;
+  height: 1px;
+  margin-left: 11.3em;
+  margin-top: -0.6em;
+}
+
+.container .login-form input {
+  border: none;
+  border-radius: 3px;
+  width: 22.9vw;
+  padding: 0.78em 0.6em;
+  font-size: 1.1em;
+  outline: none;
+  margin-top: -1em;
+}
+
+.container .login-form .btn-signup {
+  outline: none;
+  margin-top: -0.5em;
+  border: none;
+  border-radius: 3px;
+  width: 24.256vw;
+  padding: 0.78em 0.6em;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#77f875), to(#11f0b0));
+  background: linear-gradient(to right, #77f875, #11f0b0);
+}
+
+.container .login-form h4 {
+  color: rgba(255, 255, 255, 0.904);
+  font-size: 0.768em;
+}
+/*# sourceMappingURL=clchallenge.css.map */

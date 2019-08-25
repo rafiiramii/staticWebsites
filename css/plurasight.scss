@@ -1,0 +1,87 @@
+body {
+  .login {
+    margin: -1em;
+    background: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .login-form {
+      height: 100vh;
+      padding: 0.5em 8em;
+      background: black;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 500px;
+      }
+
+      .form-input {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        display: flex;
+
+        font-size: 0.9em;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.842);
+        flex-direction: column;
+        margin-left: 2.5em;
+        margin-top: -2em;
+
+        .input-field {
+          width: 380px;
+          height: 7px;
+          margin-top: 0.6em;
+          padding: 1em;
+          background: rgb(250, 255, 189);
+          outline: none;
+          // border: none;
+          border-radius: 1px;
+          border: 2px solid rgba(222, 224, 207, 0.678);
+        }
+        ::placeholder {
+          color: black;
+          font-size: 1.1em;
+        }
+        button {
+          background-color: #f96816;
+          color: white;
+          width: 411px;
+          margin-top: 0.69em;
+          padding: 0.55em;
+          outline: none;
+          border: 2px solid transparent;
+          border-radius: 2px;
+          font-size: 1.2em;
+        }
+      }
+    }
+    .forgot-password {
+      text-align: center;
+      font-size: 0.79em;
+      color: rgba(255, 255, 255, 0.712);
+      font-weight: lighter;
+      margin-top: 3em;
+      font-family: "Raleway", sans-serif;
+      letter-spacing: 0.1em;
+
+      h4 {
+        margin-bottom: 2em;
+        font-family: "Mountains of Christmas", cursive;
+      }
+
+      a {
+        margin: 4em;
+        border: 1px solid white;
+        padding: 1em 5.9em;
+      }
+    }
+    .intro-text {
+      height: 100vh;
+      background: rgba(43, 42, 42, 0.76);
+      padding: 20em;
+    }
+  }
+}

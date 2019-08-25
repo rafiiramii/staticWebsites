@@ -1,0 +1,55 @@
+body {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -4px 1px;
+  background-image: url("https://images.pexels.com/photos/1470162/pexels-photo-1470162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  .container {
+    .navbar {
+      padding: 2em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      h3 {
+        margin-right: 7em;
+      }
+      .nav-menu {
+        margin-top: 2em;
+
+        a {
+          text-decoration: none;
+          color: black;
+          margin-right: 2em;
+        }
+      }
+    }
+    .introduction {
+      padding: 4em 16em;
+      width: 25vw;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      h2 {
+        font-size: 3em;
+        font-weight: lighter;
+        color: rgba(0, 0, 0, 0.801);
+      }
+    }
+    .services {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      img {
+        color: red;
+        height: 30px;
+      }
+      .cupcake {
+        img {
+          color: red;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

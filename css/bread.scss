@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .leftBanner {
+    clip-path: polygon(0 0, 16% 0, 89% 100%, 0% 100%);
+    height: 100vh;
+    width: 50%;
+    background-color: aqua;
+    .logo {
+      img {
+        width: 30px;
+        height: 40px;
+      }
+    }
+  }
+  .rightBanner {
+    background-color: red;
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 79% 100%);
+    width: 50%;
+  }
+}
