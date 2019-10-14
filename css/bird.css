@@ -1,0 +1,137 @@
+body .container {
+  background-image: url("/images/flamingo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px -200px;
+  background-color: black;
+  color: white;
+  max-height: 100%;
+  position: absolute;
+  padding: 2em 2em 2em 2em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .leftSide {
+  width: 70%;
+}
+
+body .container .leftSide .navLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .leftSide .navLeft h2 {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+body .container .leftSide .navLeft #non-bold {
+  font-weight: lighter;
+}
+
+body .container .leftSide .navLeft img {
+  width: 40px;
+  height: 40px;
+}
+
+body .container .leftSide .introTxt {
+  border: 2px solid red;
+  width: 100px;
+}
+
+body .container .leftSide .introTxt h3 {
+  font-size: 1em;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.658);
+}
+
+body .container .leftSide .introTxt h2 {
+  border: 2px solid green;
+  max-width: inherit;
+  font-size: 3em;
+  line-height: 3em;
+}
+
+body .container .rightSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0em 0em 0 0em;
+  -ms-flex-preferred-size: content;
+      flex-basis: content;
+  margin: -2.999em -2em 0em 0em;
+  color: black;
+  height: 100vh;
+  width: 270px;
+  background-color: white;
+}
+
+body .container .rightSide h3 {
+  margin-right: 0.6em;
+  margin-top: -0.9em;
+  font-weight: normal;
+}
+
+body .container .rightSide h5 {
+  margin-right: 2em;
+}
+
+body .container .rightSide h5::before {
+  content: " ";
+  display: block;
+  height: 1.2px;
+  width: 20px;
+  margin-top: 0.5em;
+  left: 21px;
+  right: 0px;
+  margin-right: -1em;
+  float: right;
+  background-color: rgba(54, 50, 50, 0.685);
+}
+
+body .container .rightSide i {
+  margin: 2em 0.6em 2em 0;
+}
+
+body .container .rightSide div {
+  height: inherit;
+  width: inherit;
+}
+
+body .container .rightSide div:hover {
+  background: black;
+  color: white;
+  font-size: 1.2em;
+  width: 270px;
+}
+
+body .container .rightSide i {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=bird.css.map */
