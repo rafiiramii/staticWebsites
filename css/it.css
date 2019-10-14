@@ -1,0 +1,161 @@
+#services .services {
+  height: 30vh;
+  width: 100%;
+}
+
+#services .services .productDesign {
+  margin: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#services .services .productDesign .productDesignText {
+  font-family: "Almarai", sans-serif;
+  width: 50%;
+  text-align: left;
+  padding-left: 15.5em;
+  padding-top: 3em;
+}
+
+#services .services .productDesign .productDesignText h3 {
+  width: 600px;
+  font-size: 2.8125rem;
+  line-height: 3.75rem;
+  -webkit-transition: font 0.3s ease;
+  transition: font 0.3s ease;
+  font-weight: 700;
+  color: #424243;
+  font-family: "Almarai", sans-serif;
+}
+
+#services .services .productDesign .productDesignText p {
+  line-height: 1.9em;
+  width: 550px;
+  text-align: justify;
+  font-weight: normal;
+  letter-spacing: 0.008em;
+  color: #424343;
+  font-size: 1.325em;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+#services .services .productDesign .productDesignImage {
+  margin-right: -2em;
+  width: 58.5%;
+}
+
+#services .services .productDesign .productDesignImage img {
+  width: 100%;
+  height: 100%;
+}
+
+#services .services .brandingDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0em;
+  height: 70vh;
+}
+
+#services .services .brandingDesign .brandingDesignText {
+  font-family: "Almarai", sans-serif;
+  width: 50%;
+  text-align: left;
+  padding-left: 6.06em;
+  padding-top: 3em;
+  background-color: #fff;
+}
+
+#services .services .brandingDesign .brandingDesignText h3 {
+  width: 600px;
+  font-size: 2.8125rem;
+  line-height: 3.75rem;
+  -webkit-transition: font 0.3s ease;
+  transition: font 0.3s ease;
+  font-weight: 700;
+  color: #424243;
+  font-family: "Almarai", sans-serif;
+}
+
+#services .services .brandingDesign .brandingDesignText p {
+  line-height: 1.9em;
+  width: 550px;
+  text-align: justify;
+  font-weight: normal;
+  letter-spacing: 0.008em;
+  color: #424343;
+  font-size: 1.325em;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+#services .services .brandingDesign .brandingDesignImage {
+  width: 100%;
+}
+
+#services .services .brandingDesign .brandingDesignImage img {
+  width: 100%;
+  height: 100%;
+}
+
+#services .services .technologySystem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#services .services .technologySystem .technologySystemText {
+  font-family: "Almarai", sans-serif;
+  width: 50%;
+  text-align: left;
+  padding-left: 15.3em;
+  padding-top: 5em;
+}
+
+#services .services .technologySystem .technologySystemText h3 {
+  width: 600px;
+  font-size: 2.8125rem;
+  line-height: 3.75rem;
+  -webkit-transition: font 0.3s ease;
+  transition: font 0.3s ease;
+  font-weight: 700;
+  color: #424243;
+  font-family: "Almarai", sans-serif;
+}
+
+#services .services .technologySystem .technologySystemText p {
+  line-height: 1.9em;
+  width: 550px;
+  text-align: justify;
+  font-weight: normal;
+  letter-spacing: 0.008em;
+  color: #424343;
+  font-size: 1.325em;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+#services .services .technologySystem .technologySystemImage {
+  width: 58.5%;
+  margin-right: -2em;
+}
+
+#services .services .technologySystem .technologySystemImage img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=it.css.map */

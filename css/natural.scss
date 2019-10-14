@@ -1,0 +1,194 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  .container {
+    background-image: url("/images/nature6b.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    padding: 2em;
+
+    #non-White {
+      margin-left: 0.3em;
+      color: rgba(255, 255, 255, 0.466);
+      font-weight: 300;
+      font-size: 0.8em;
+      letter-spacing: 0.1em;
+      font-family: "Open Sans", sans-serif;
+    }
+    #font-lighter {
+      color: rgba(233, 223, 223, 0.863);
+      font-family: "Raleway", sans-serif;
+      font-weight: 100 !important;
+    }
+    .navbar {
+      font-family: "Open Sans", sans-serif;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      i {
+        color: rgba(255, 255, 255, 0.801);
+        font-size: 1.2em;
+        font-weight: 100 !important;
+      }
+
+      .navMenus {
+        font-family: "Open Sans", sans-serif;
+
+        a {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.568);
+          margin-left: 2em;
+        }
+      }
+    }
+
+    .introText {
+      padding-top: 4em;
+      color: white;
+      h2 {
+        letter-spacing: 0.1em;
+        line-height: 1em;
+        font-size: 3em;
+        width: 30px;
+      }
+      h5 {
+        font-size: 1.01em;
+        margin-top: -2.14em;
+        margin-left: 6em;
+        color: rgba(255, 255, 255, 0.466);
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        font-family: "Open Sans", sans-serif;
+      }
+      h5:before {
+        content: " ";
+        display: block;
+        height: 1.2px;
+        width: 70px;
+        margin-top: 1em;
+        top: 15.9em;
+        left: 35px;
+        position: absolute;
+        float: left;
+
+        background-color: rgba(255, 255, 255, 0.568);
+      }
+    }
+    .quotes {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      float: right;
+      margin-top: -1.3em;
+      .quote1 {
+        // text-align: ;
+        align-content: center;
+        color: #258810;
+        border: 6px solid #258810;
+        width: 230px;
+        height: 250px;
+        padding: 0em 1.5em 0.6em 1.5em;
+        h2 {
+          // margin-top: -0.1em;
+          font-size: 4em;
+          text-align: right;
+          margin-top: 16px;
+        }
+        h4 {
+          letter-spacing: 0.06em;
+          text-align: start;
+          // letter-spacing: em;
+          margin-top: -1.3em;
+          font-size: 1.8em;
+        }
+        p {
+          margin-top: -2em;
+
+          font-size: 0.88em;
+          text-align: right;
+
+          color: rgba(255, 255, 255, 0.397);
+        }
+      }
+      .socialMedia {
+        margin-top: 4em;
+        margin-left: 1.5em;
+        display: flex;
+        flex-direction: column;
+
+        i {
+          margin-top: 1.2em;
+          font-size: 1.1em;
+        }
+      }
+
+      .socialMedia::before {
+        content: " ";
+        display: block;
+        height: 250px;
+        width: 1.1px;
+        margin-top: 1em;
+        top: 5.5em;
+        right: 40px;
+        position: absolute;
+        float: left;
+
+        background-color: rgba(255, 255, 255, 0.568);
+      }
+
+      .socialMedia::after {
+        // border: 2px solid red;
+        color: rgba(255, 255, 255, 0.5);
+        content: "follow us ";
+        display: block;
+        letter-spacing: 0.03em;
+        height: 25px;
+        width: 100px;
+        margin-top: 1em;
+        top: 33em;
+        right: -8.3px;
+        position: absolute;
+        float: left;
+        transform: rotate(-90deg);
+        // background-color: rgba(255, 255, 255, 0.568);
+      }
+    }
+
+    .footer {
+      display: flex;
+      // justify-content: space-between;
+      margin-top: 21.5em;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      .green {
+        outline: ghostwhite;
+        color: #95e485;
+      }
+      i {
+        font-size: 1.5em;
+      }
+
+      .loading {
+        color: rgba(255, 255, 255, 0.596);
+        margin-top: 1em;
+        margin-left: 40em;
+        i {
+          margin-left: 1em;
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+}

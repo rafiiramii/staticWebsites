@@ -1,0 +1,158 @@
+#services {
+  .services {
+    height: 30vh;
+    width: 100%;
+    .productDesign {
+      margin: 0;
+      top: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      // justify-content: baseline;
+      .productDesignText {
+        font-family: "Almarai", sans-serif;
+        width: 50%;
+        text-align: left;
+        // padding: 14em;
+        padding-left: 15.5em;
+        padding-top: 3em;
+        // background-color: #f7f7f4;
+
+        h3 {
+          width: 600px;
+          font-size: 2.8125rem;
+          line-height: 3.75rem;
+          transition: font 0.3s ease;
+          font-weight: 700;
+          color: #424243;
+          // color: #333;
+          font-family: "Almarai", sans-serif;
+        }
+
+        p {
+          line-height: 1.9em;
+          width: 550px;
+          text-align: justify;
+          font-weight: normal;
+          letter-spacing: 0.008em;
+          color: #424343;
+          // font-size: 2.8125em;
+          font-size: 1.325em;
+          font-family: "Quattrocento Sans", sans-serif;
+        }
+      }
+
+      .productDesignImage {
+        margin-right: -2em;
+        width: 58.5%;
+        // margin-bottom: -1em;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .brandingDesign {
+      display: flex;
+      flex-direction: row;
+      margin: 0em;
+      height: 70vh;
+      .brandingDesignText {
+        font-family: "Almarai", sans-serif;
+        width: 50%;
+        text-align: left;
+        // padding: 14em;
+        padding-left: 6.06em;
+        padding-top: 3em;
+        background-color: #fff;
+        // margin: 0 0 0 4.8em;
+        // border: 2px solid red;
+        h3 {
+          width: 600px;
+          font-size: 2.8125rem;
+          line-height: 3.75rem;
+          transition: font 0.3s ease;
+          font-weight: 700;
+          color: #424243;
+          // color: #333;
+          font-family: "Almarai", sans-serif;
+        }
+
+        p {
+          line-height: 1.9em;
+          width: 550px;
+          text-align: justify;
+          font-weight: normal;
+          letter-spacing: 0.008em;
+          color: #424343;
+          // font-size: 2.8125em;
+          font-size: 1.325em;
+          font-family: "Quattrocento Sans", sans-serif;
+        }
+      }
+
+      .brandingDesignImage {
+        width: 100%;
+        // margin-bottom: -1em;
+
+        // height: 100vh;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .technologySystem {
+      display: flex;
+      flex-direction: row;
+
+      .technologySystemText {
+        font-family: "Almarai", sans-serif;
+        width: 50%;
+        text-align: left;
+        // padding: 14em;
+        padding-left: 15.3em;
+        padding-top: 5em;
+        // background-color: #f7f7f4;
+
+        h3 {
+          width: 600px;
+          font-size: 2.8125rem;
+          line-height: 3.75rem;
+          transition: font 0.3s ease;
+          font-weight: 700;
+          color: #424243;
+          // color: #333;
+          font-family: "Almarai", sans-serif;
+        }
+
+        p {
+          line-height: 1.9em;
+          width: 550px;
+          text-align: justify;
+          font-weight: normal;
+          letter-spacing: 0.008em;
+          color: #424343;
+          // font-size: 2.8125em;
+          font-size: 1.325em;
+          font-family: "Quattrocento Sans", sans-serif;
+        }
+      }
+
+      .technologySystemImage {
+        width: 58.5%;
+        // margin-bottom: -1em;
+        margin-right: -2em;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
